@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigate_overview"
+    app:startDestination="@id/blank_FirstPage">
+
+    <fragment
+        android:id="@+id/blank_FirstPage"
+        android:name="com.example.panda_quire_application.Blank_FirstPage"
+        android:label="fragment_blank__first_page"
+        tools:layout="@layout/fragment_blank__first_page" >
+        <action
+            android:id="@+id/action_blank_FirstPage_to_registerPage"
+            app:destination="@id/registerPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerPage"
+        android:name="com.example.panda_quire_application.RegisterPage"
+        android:label="fragment_register_page"
+        tools:layout="@layout/fragment_register_page" />
+</navigation>

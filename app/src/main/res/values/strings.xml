@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Panda_Quire_Application</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="tv_about">In this application you can easily create and keep track of your notes
+    to make sure non of your plans or tasks falls behind. Our interface is user friendly which makes it
+    easy to add, save and delete your tasks. Quire app makes your life simple to organize in a world full of tasks to complete.
+        Download it today!</string>
+    <string name="btn_about">About</string>
 </resources>

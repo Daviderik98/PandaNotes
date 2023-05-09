@@ -13,10 +13,18 @@
         <action
             android:id="@+id/action_blank_FirstPage_to_registerPage"
             app:destination="@id/registerPage" />
+        <action
+            android:id="@+id/action_blank_FirstPage_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
     </fragment>
     <fragment
         android:id="@+id/registerPage"
         android:name="com.example.panda_quire_application.RegisterPage"
         android:label="fragment_register_page"
         tools:layout="@layout/fragment_register_page" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.panda_quire_application.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
 </navigation>

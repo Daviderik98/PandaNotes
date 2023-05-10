@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "147815134749",
+    "project_id": "pandaappdavid",
+    "storage_bucket": "pandaappdavid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147815134749:android:375ab6901b651ec64338f4",
+        "android_client_info": {
+          "package_name": "com.example.panda_quire_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147815134749-mhsahtpqrajvl80k1c3dplgei7du51g8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpBeFqteBdEHO86gMlWC7fd3nvmUpJ7Vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147815134749-mhsahtpqrajvl80k1c3dplgei7du51g8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
